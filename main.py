@@ -2,7 +2,7 @@ import discord
 from python_aternos import Client
 from discord.ext import commands
 
-discord = commands.Bot(command_prefix='!')
+discord = commands.Bot(command_prefix='!', intents = discord.Intents(messages = True, guild_messages = True, members = True, guilds = True, voice_states = True)
 aternos = Client.from_credentials('Weyther', 'Qawe4r%tyu*i')
 
 @discord.command(aliases=["startserver", "ss", "start"])
