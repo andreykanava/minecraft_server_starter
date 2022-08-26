@@ -15,4 +15,4 @@ async def start_server(ctx):
     except:
         await  ctx.channel.send(content=":white_check_mark:Сервер вже запущений!:white_check_mark: ")
 
-discord.run("MTAxMjA1NDAzMTk0Mzg3MjU1Mw.G8uP5Z.WYnj13E_nJFVVrUFpRrO9tft12VaaJf7FpWtuE")
+discord.run("MTAxMjA1NDAzMTk0Mzg3MjU1Mw.G5Anop.me2GakRFrCxPQFNu9COWUoZsWehVMM-dYFRVbk")
