@@ -3,7 +3,7 @@ from python_aternos import Client
 from discord.ext import commands
 
 discord = commands.Bot(command_prefix='!', intents = discord.Intents(messages = True, guild_messages = True, members = True, guilds = True, voice_states = True))
-aternos = Client.from_credentials('Weyther', 'Qawe4r%tyu*i')
+aternos = Client.from_credentials('', '')
 
 @discord.command(aliases=["startserver", "ss", "start"])
 async def start_server(ctx):
@@ -15,4 +15,4 @@ async def start_server(ctx):
     except:
         await  ctx.channel.send(content=":white_check_mark:Сервер вже запущений!:white_check_mark: ")
 
-discord.run("MTAxMjA1NDAzMTk0Mzg3MjU1Mw.GRlTK8.JZ0DjFcwRC4feePrrv6R0U_qYmZYu01vihr5gk")
+discord.run("")
